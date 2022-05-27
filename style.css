@@ -1,0 +1,9 @@
+.player-input > *,
+.computer-output,
+.computer-output > * {
+    font-size: 21px;
+}
+
+body {
+    background-color: yellow;
+}

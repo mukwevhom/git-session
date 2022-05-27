@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>GirlCode JS Rock, Paper, Scissor</title>
+</head>
+<body>
+    <h1 id="title">GirlCode JS Rock, Paper, Scissor</h1>
+
+    <div class="game-wrapper">
+        <div class="player-input">
+            <label for="player-select">Player Input: </label>
+            <select name="player-select" id="player-select">
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissor">Scissor</option>
+            </select>
+            <button id="player-submit">Submit</button>
+        </div>
+        <div class="computer-output">
+            Computer: <p id="computer-value"></p>
+        </div>
+
+        <div class="game-score">
+            <h3>Score</h3>
+            <p id="score"></p>
+        </div>
+    </div>
+
+    <script src="index.js" ></script>
+</body>
+</html>
